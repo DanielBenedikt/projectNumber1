@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding Tasks</title>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><u><em> My Task Board </em></u></h1>
+    <div id="fromMission">
+        <label for="detalisMission"><b><u>Details: </u></b></label> <br>
+        <input type="text" id="detalisMission">
+    <br><br>
+        <label for="dateMission"><b><u>Date: </u></b></label><br>
+        <input type="date" id="dateMission">
+    <br><br>
+        <label for="timeMission"><b><u>Time: </u></b></label> <br>
+        <input type="time" id="timeMission">
+    <br><br>
+        <button onclick="saveNote()"> Save </button>
+        <button onclick="reset()"> Reset </button>
+    </div>
+<br><br>
+    <div id="noteMission">
+
+    </div>
+</body>
+</html>
